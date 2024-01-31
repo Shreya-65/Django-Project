@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{%static 'style.css'%}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .list-group-item {
+        margin-bottom: 5px; /* 3px gap between list items */
+        font-size: 1.25rem; /* Font size similar to h4 */
+      }
+      .card-img{
+        width: 290px; 
+         height: 220px;
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .card-title{
+        margin-top: 2px;
+        border-color: black;
+        font-size: 18px;
+      }
+      .card-title-p{
+        color: blue;
+      }
+      .btn{
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-panel">
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address">
+                <p class=add-first>Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Kolkata</p>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>Select Pincode</option>
+                </select>
+                <input placeholder="Search Medicienes"class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+                <p><Span><i class="fa-solid fa-user"></i>Hello, sign in</Span></i></p>
+                <p class="nav-second">Account & lists</p>
+            </div>
+
+            <div class="nav-callus">
+                <i class="fa-solid fa-phone"></i>
+                CALL US
+                <div class="add-callicon">
+                    <p class=add-fourth>Kolkata - 9836996813 / 8697989608</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All Categories
+            </div>
+
+            <div class="panel-ops">
+                <p>Medicienes</p>
+                <p>Health blogs</p>
+                <p>Top Products</p>
+                <p>Baby Care</p>
+                <p>Sexual Wellness</p>
+                <p>Offers</p>
+            </div>
+
+            <div class="nav-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Cart
+          </div>
+      </div>
+  </div>
+</header>
+<div class="container mt-5">
+  <div class="row g-5">
+    <div class="col">
+      <ul class="list-group list-group-flush">
+        <a href="medicine.html"<li class="list-group-item">Medicienes</li></a>
+        <li class="list-group-item">Lab Tests</li>
+        <a href="health_care.html"<li class="list-group-item">Healthcare</li></a>
+        <li class="list-group-item">Health Blogs</li>
+        <a href="baby_care.html"<li class="list-group-item">Baby Care</li></a>
+        <a href="sexual_health.html"<li class="list-group-item">Sexual Health</li></a>
+        <a href="ayurveda.html"<li class="list-group-item">Ayurveda</li></a>
+        <a href="health_drink.html"<li class="list-group-item">Health Drinks</li></a>
+        <a href="woman_care.html"<li class="list-group-item">Woman Care</li></a>
+        <a href="skincare.html"<li class="list-group-item">Skin Care</li></a>
+        <a href="haircare.html"<li class="list-group-item">Hair Care</li></a>
+        <a href="vitamins.html"<li class="list-group-item">Vitamins</li></a>
+        <a href="health_device.html"<li class="list-group-item">Health Devices</li></a>
+        <a href="oral_care.html"<li class="list-group-item">Oral Care</li></a>
+        <a href="eye_care.html"<li class="list-group-item">Eye Care</li></a>
+      </ul>
+    </div>
+    <div class="col">
+        <div class="card">
+          <div class="card-img">
+          <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT2g1qhTmrCvFf9hnYs65vlFRQhMbmNHe5-W1SNrosUE_QSzIryYFefscTQf44tdq4ciIX3FkIDouysGsaTc9q-N8DbbDOjfyFrhfg3Nt3N&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+          <div class="card-body">
+            <h6 class="card-title"><b>L'Oreal Paris Hyaluron Moisture Hair Combo - Shampoo & Conditionor</b></h6>
+            <p class="card-title-p">Rs. 366.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-img">
+          <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRaGQNUSpstpgFgLTCrB0S-DDDEKNb_jgZbcftVSbpwJY-IsDPDjaU9wH7UeXjTJ9NUnudH-3INGjpq0eUeSNWPlOz0LkmcNby_bHkmBwnfPqVN77BeYW-HbA&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+          <div class="card-body">
+            <h6 class="card-title"><b>Tresemme Pro-pure Damage Recovery Shampoo - 390 ml</b></h6>
+            <p class="card-title-p">Rs. 450.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-img">
+          <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTin-W8PHYqtbBMAtClVRiAkJTuIaH8RBZrH3F-PM71PO-d0no6KKDqRBCgiEoQ6kRTHxVp9Uor8z-IXR8kpX6_8xzA-wxzMUMvwCSII-oTOMa4uY0jUnsvZw&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+          <div class="card-body">
+            <h6 class="card-title"><b>L'Oreal Paris Total Repair 5 Combo - Shampoo + Conditioner + Serum</b></h6>
+            <p class="card-title-p">Rs. 914.00</p>      
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ... (similar code for other rows) -->
+  </div>
+  
+  <div class="container mt-5">
+  <div class="row g-5">
+   <div class="col">
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTA7jlN7naZnclvn9C1vRMFCCR6RoHnpgEvQ6fm4hmujJAbt0cZ_0-mEiiSuhx-eI7IF17Q9CxiBn69z9WFJ_JG6Jq06tw6qwqTlzaAybiF2XueqWGxsGGxMQ&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>L'Oreal Paris Long Hair Dreams</b></h6>
+          <p class="card-title-p">Rs. 1667.00</p>      
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSJ9gc2wm4L8qhoR_sEVQlewf3mQs8PFjO9_U2_WMzB0tKVi4Acpshjfh2LG3fLf5rTLLf3Bn6VCshTTd3CFYaFhxu0hx3Co2zJPykT-DBhOXRusrD_83Ed&usqp=CAE class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>MamaEarth Rosemary Hair Care Kit - 650ml</b></h6>
+          <p class="card-title-p">Rs. 782.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTWiUKMIT-zu6oQZbvUa_FWZWfU_5lpWWJrCryGnOL7oIILmEnZ63tP2gnCoazdO7CAo_OJgHcp0NklP-7E0umBQek3YMTqjYQMfrPuZenNiWt8KWd5esqUAQ&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Protein Hair Cream - 100 ml</b></h6>
+          <p class="card-title-p">Rs. 100.00</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ... (similar code for other rows) -->
+  </div>
+  </div>
+  
+  <div class="container mt-5">
+  <div class="row g-5">
+   <div class="col">
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ4TVBSzl1jgRVdlVfChCzgRsLpntQet6w3DOZkPnTmTESo_uNwWGo1QJ4-o7s-5RY1qUDJi6dDkOuXMrSE_I656ThyZXC698ayH8O4Av9BlAD5HscLKJy_&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Vedix Customised Ayurvedic Hair Care Regimen</b></h6>
+          <p class="card-title-p">Rs. 999.00</p>     
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS0wINiC_e400G6697PPe34O8CGbIxkwvEEq_4pZAvSKxtnnoKK_UScbnNLilekTRAhmpJfYyhePjcKXgeD93J6yeU4ovj7twUBNbYvc2Q&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Curly Hair BFF Kit</b></h6>
+          <p class="card-title-p">Rs. 943.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSXaaDKtAz5jDuoa6mC4wDB1rwVWnY_3oh8irQYUQtrU54B40D-QWPeZ4_6E6F4La0ZpmXl7spdrPkXekJQUmP-vk2OUavlJgTAZdnLdlr3ZWC2umdBTFtBJQ&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Maleic Bond Repair Complex 05% Hair Serum</b></h6>
+          <p class="card-title-p">Rs. 943.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ... (similar code for other rows)
+  </div>
+  </div>-->
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

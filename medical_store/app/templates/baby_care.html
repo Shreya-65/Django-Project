@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{%static 'style.css'%}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .list-group-item {
+        margin-bottom: 5px; /* 3px gap between list items */
+        font-size: 1.25rem; /* Font size similar to h4 */
+      }
+      .card-img{
+        width: 290px; 
+         height: 220px;
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .card-title{
+        margin-top: 2px;
+        border-color: black;
+        font-size: 18px;
+      }
+      .card-title-p{
+        color: blue;
+      }
+      .btn{
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-panel">
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address">
+                <p class=add-first>Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Kolkata</p>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>Select Pincode</option>
+                </select>
+                <input placeholder="Search Medicienes"class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+                <p><Span><i class="fa-solid fa-user"></i>Hello, sign in</Span></i></p>
+                <p class="nav-second">Account & lists</p>
+            </div>
+
+            <div class="nav-callus">
+                <i class="fa-solid fa-phone"></i>
+                CALL US
+                <div class="add-callicon">
+                    <p class=add-fourth>Kolkata - 9836996813 / 8697989608</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All Categories
+            </div>
+
+            <div class="panel-ops">
+                <p>Medicienes</p>
+                <p>Health blogs</p>
+                <p>Top Products</p>
+                <p>Baby Care</p>
+                <p>Sexual Wellness</p>
+                <p>Offers</p>
+            </div>
+
+            <div class="nav-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Cart
+          </div>
+      </div>
+  </div>
+</header>
+<div class="container mt-5">
+  <div class="row g-5">
+    <div class="col">
+      <a href="medicine.html"<li class="list-group-item">Medicienes</li></a>
+        <li class="list-group-item">Lab Tests</li>
+        <a href="health_care.html"<li class="list-group-item">Healthcare</li></a>
+        <li class="list-group-item">Health Blogs</li>
+        <a href="baby_care.html"<li class="list-group-item">Baby Care</li></a>
+        <a href="sexual_health.html"<li class="list-group-item">Sexual Health</li></a>
+        <a href="ayurveda.html"<li class="list-group-item">Ayurveda</li></a>
+        <a href="health_drink.html"<li class="list-group-item">Health Drinks</li></a>
+        <a href="woman_care.html"<li class="list-group-item">Woman Care</li></a>
+        <a href="skincare.html"<li class="list-group-item">Skin Care</li></a>
+        <a href="haircare.html"<li class="list-group-item">Hair Care</li></a>
+        <a href="vitamins.html"<li class="list-group-item">Vitamins</li></a>
+        <a href="health_device.html"<li class="list-group-item">Health Devices</li></a>
+        <a href="oral_care.html"<li class="list-group-item">Oral Care</li></a>
+        <a href="eye_care.html"<li class="list-group-item">Eye Care</li></a>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRWoTv4_3JuJE2FHJtVKqe8DcfoTXjUWGITodlUl8j-E0vnd8Csethm-cVedtovuvCcRUMwb6h23OG_irJiqJyVdGTJmxL7u-eorWmb-Ypa-NSblIY7iY7fRA&usqp=CAE"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Little'S Comfy Baby Pants - New Born</b></h6>
+          <p class="card-title-p">Rs. 336.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT7sTIMOYf0H07QLlldbNPVB59cERJe8dkBWZ7bQcrHzzIbwgz7RBdYwoBKuRbE8u3ao1SYasIEoo2O2eZXST-A8chWGfk2elcr8hlHMCaAP-MxQ_OWapiH&usqp=CAE"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Himalaya Refreshing Baby Wash - 400 ml</b></h6>
+          <p class="card-title-p">Rs. 265.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzXQ2w2tsyVvoja0EEsMj8Qc4_SacYnwZu3sfuWtSHa3o5CZ6TrfXrqLnwYiPQo9ngNtx45Bsyo8eWJhiB1OhYzHZrKepptGx2px-OAiTCgQAB0kmeUUm6&usqp=CAE"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Johnson's Baby Oil with Vitamin-E 500 ml</b></h6>
+          <p class="card-title-p">Rs. 422.00</p>      
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ... (similar code for other rows) -->
+</div>
+
+<div class="container mt-5">
+<div class="row g-5">
+ <div class="col">
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ5Y1h1cevQg2YJDw2pjdu51-X52QC310_P_PWgJsMQ3y-0z9AeBapLM_1rhviWXj4_vUszAK0mth4l5Ol0DRV4OBgld2b5hX_87ja0LPI2LEeB3p6mw2tapQ&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Johnson Baby Skin Care Wipes 2 x 80s</b></h6>
+        <p class="card-title-p">Rs. 255.00</p>      
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQhU2rkwSBazKKTlMjlpkAhCC8aspWW-534v4CDY5js4VwHsoJDtci8HXu-dnRGDVnUxpMLPyIEAuMJaCLGRiUdYN0Kkx9tIF_RVgQTe_N-WNp6DLFsieJf&usqp=CAE"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Johnson's Baby Cream, 100 gm</b></h6>
+        <p class="card-title-p">Rs. 159.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://www.jiomart.com/images/product/original/490002044/johnson-s-baby-milk-rice-cream-100-g-product-images-o490002044-p490002044-0-202308230901.jpg?im=Resize=(420,420)"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Johnson's Baby Milk & Rice Cream 100 g</b></h6>
+        <p class="card-title-p">Rs. 152.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ... (similar code for other rows) -->
+</div>
+</div>
+
+<div class="container mt-5">
+<div class="row g-5">
+ <div class="col">
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTVNhA0fLW_YP6p4kBXo4kJ2ncB-3FvEaXw6Fak5GnY3DQO3UmMjr5LL0RlkXFiG_-ubTgV5ewKlJt2S9Iqz_4HhUJ4Oaxkvg-NuLR9bxwjqa48J3MQ3Jqc&usqp=CAE"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Himalaya Extra Moisturizing Baby Soap 75 g</b></h6>
+        <p class="card-title-p">Rs. 49.00</p>     
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://spencers.in/media/catalog/product/1/3/1335230_1.jpg"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Himalaya Baby Powder 700 g</b></h6>
+        <p class="card-title-p">Rs. 360.00</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRXLd7UTNykYF1f2bQy2keQ4OeqnH9mEv3ychFKQ2EPzqFhjGJYxPkDAwbOV384EqAva9IrSYfmLRW5FmaUsaNNXab1MoRniK0hBO48BKoacDgHz-EiCMIz&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Himalaya Baby Lotion - 200 ml</b></h6>
+        <p class="card-title-p">Rs. 185.00</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ... (similar code for other rows)
+</div>
+</div>-->
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

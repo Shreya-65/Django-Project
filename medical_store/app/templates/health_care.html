@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{%static 'style.css'%}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .list-group-item {
+        margin-bottom: 5px; /* 3px gap between list items */
+        font-size: 1.25rem; /* Font size similar to h4 */
+      }
+      .card-img{
+        width: 290px; 
+         height: 220px;
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .card-title{
+        margin-top: 2px;
+        border-color: black;
+        font-size: 18px;
+      }
+      .card-title-p{
+        color: blue;
+      }
+      .btn{
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-panel">
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address">
+                <p class=add-first>Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Kolkata</p>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>Select Pincode</option>
+                </select>
+                <input placeholder="Search Medicienes"class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+                <p><Span><i class="fa-solid fa-user"></i>Hello, sign in</Span></i></p>
+                <p class="nav-second">Account & lists</p>
+            </div>
+
+            <div class="nav-callus">
+                <i class="fa-solid fa-phone"></i>
+                CALL US
+                <div class="add-callicon">
+                    <p class=add-fourth>Kolkata - 9836996813 / 8697989608</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All Categories
+            </div>
+
+            <div class="panel-ops">
+                <p>Medicienes</p>
+                <p>Health blogs</p>
+                <p>Top Products</p>
+                <p>Baby Care</p>
+                <p>Sexual Wellness</p>
+                <p>Offers</p>
+            </div>
+
+            <div class="nav-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Cart
+          </div>
+      </div>
+  </div>
+</header>
+<div class="container mt-5">
+  <div class="row g-5">
+    <div class="col">
+      <a href="medicine.html"<li class="list-group-item">Medicienes</li></a>
+        <li class="list-group-item">Lab Tests</li>
+        <a href="health_care.html"<li class="list-group-item">Healthcare</li></a>
+        <li class="list-group-item">Health Blogs</li>
+        <a href="baby_care.html"<li class="list-group-item">Baby Care</li></a>
+        <a href="sexual_health.html"<li class="list-group-item">Sexual Health</li></a>
+        <a href="ayurveda.html"<li class="list-group-item">Ayurveda</li></a>
+        <a href="health_drink.html"<li class="list-group-item">Health Drinks</li></a>
+        <a href="woman_care.html"<li class="list-group-item">Woman Care</li></a>
+        <a href="skincare.html"<li class="list-group-item">Skin Care</li></a>
+        <a href="haircare.html"<li class="list-group-item">Hair Care</li></a>
+        <a href="vitamins.html"<li class="list-group-item">Vitamins</li></a>
+        <a href="health_device.html"<li class="list-group-item">Health Devices</li></a>
+        <a href="oral_care.html"<li class="list-group-item">Oral Care</li></a>
+        <a href="eye_care.html"<li class="list-group-item">Eye Care</li></a>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTH8kre4rkwObLvhUhiTeqSnHoC55AOwOuLh2JTsZhz-phmzvVg1nWEfgDxVYGOY8l-d_itgO9-EMHM4_xABhUw8cf4XSTAsU5h90KrpcU&usqp=CAE"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Healthcare Kit for Working Professional</b></h6>
+          <p class="card-title-p">Rs. 1,364.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyXTzlJGCuKPhjvi5IPmxHbqLkteFMbVRL8SNM_KSFrgamfxh3dN1iHSe_z8xhb8HsS5NNeQMGhvvC4P5uM2aUh731_CZGk3wOr4q-BBjAVM9vePBlWin1SA&usqp=CAE"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>FYTIKA HEALTHCARE PRODUCTS Vita </b></h6>
+          <p class="card-title-p">Rs. 348.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRSB7Mq7OFMcVUUafYUTwcTnauLpnMiAAhvfZqlihdw8VFsu6DUDpL3enQvXh9bH2dCmXv1RWq3NIv9bZeTGR8GHMWIVNG5To-x2pIuQua4BENgpC5PlXy5cQ&usqp=CAE"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Health Pro Tablet</b></h6>
+          <p class="card-title-p">Rs. 166.00</p>      
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ... (similar code for other rows) -->
+</div>
+
+<div class="container mt-5">
+<div class="row g-5">
+ <div class="col">
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR0sWzej6yFGlRhkY4-SRgLbmMOA-YvqG8wcAvSV73p2XrK4MTbIZndAwNsugaUibi1RfrnygrxtfPVPE-9phIcdIXb1oD1PLMD_LLkRhQiJDBbGs-_tWGQdQ&usqp=CAE"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Amrit Healthcare Daily Plus</b></h6>
+        <p class="card-title-p">Rs. 1,499.00</p>      
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR2PJeb27N0wTX_ftDPQaUTX8v5c2inYir5KNZ2cZ4yhQu_VOnKiC6sPpZMza_6FvzHO3uMQLL5f-DtaamuHTaWSxwnjV34LSyzf969q8H-4anQGHYwpzAE&usqp=CAE"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Healthyr-U </b></h6>
+        <p class="card-title-p">Rs. 1,699.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQe3kocFgh-qaPmpoHhKIuKujvawUesoVAaa2zRhJcuFIxFmn0lBaYyl8ZKTGK7xTIrnag4B2B6H7-ulIISRLJI1kkpSPwVrdJwrA1_R-rblhZkALcyOCz9&usqp=CAE"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Leuco Care Tablet 15 DAYS</b></h6>
+        <p class="card-title-p">Rs. 300.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ... (similar code for other rows) -->
+</div>
+</div>
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

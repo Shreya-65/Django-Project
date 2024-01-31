@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{%static 'style.css'%}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .list-group-item {
+        margin-bottom: 5px; /* 3px gap between list items */
+        font-size: 1.25rem; /* Font size similar to h4 */
+      }
+      .card-img{
+        width: 290px; 
+         height: 220px;
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .card-title{
+        margin-top: 2px;
+        border-color: black;
+        font-size: 18px;
+      }
+      .card-title-p{
+        color: blue;
+      }
+      .btn{
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-panel">
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address">
+                <p class=add-first>Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Kolkata</p>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>Select Pincode</option>
+                </select>
+                <input placeholder="Search Medicienes"class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+                <p><Span><i class="fa-solid fa-user"></i>Hello, sign in</Span></i></p>
+                <p class="nav-second">Account & lists</p>
+            </div>
+
+            <div class="nav-callus">
+                <i class="fa-solid fa-phone"></i>
+                CALL US
+                <div class="add-callicon">
+                    <p class=add-fourth>Kolkata - 9836996813 / 8697989608</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All Categories
+            </div>
+
+            <div class="panel-ops">
+                <p>Medicienes</p>
+                <p>Health blogs</p>
+                <p>Top Products</p>
+                <p>Baby Care</p>
+                <p>Sexual Wellness</p>
+                <p>Offers</p>
+            </div>
+
+            <div class="nav-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Cart
+          </div>
+      </div>
+  </div>
+</header>
+<div class="container mt-5">
+  <div class="row g-5">
+    <div class="col">
+      <ul class="list-group list-group-flush">
+        <a href="medicine.html"<li class="list-group-item">Medicienes</li></a>
+        <li class="list-group-item">Lab Tests</li>
+        <a href="health_care.html"<li class="list-group-item">Healthcare</li></a>
+        <li class="list-group-item">Health Blogs</li>
+        <a href="baby_care.html"<li class="list-group-item">Baby Care</li></a>
+        <a href="sexual_health.html"<li class="list-group-item">Sexual Health</li></a>
+        <a href="ayurveda.html"<li class="list-group-item">Ayurveda</li></a>
+        <a href="health_drink.html"<li class="list-group-item">Health Drinks</li></a>
+        <a href="woman_care.html"<li class="list-group-item">Woman Care</li></a>
+        <a href="skincare.html"<li class="list-group-item">Skin Care</li></a>
+        <a href="haircare.html"<li class="list-group-item">Hair Care</li></a>
+        <a href="vitamins.html"<li class="list-group-item">Vitamins</li></a>
+        <a href="health_device.html"<li class="list-group-item">Health Devices</li></a>
+        <a href="oral_care.html"<li class="list-group-item">Oral Care</li></a>
+        <a href="eye_care.html"<li class="list-group-item">Eye Care</li></a>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR5YWLRy3kpbIB6vQlDgl7jNigndBFlWUYohYOzEirYZ0RxHanURU-0tn0K2Dk5uzOE8fkFwhMrCdhtlgVDdJtkEsw2h2oGinbyULugHJCMYXjBVnuvgEsAIA&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>VWash Expert Intimate Hygiene - 20 ml</b></h6>
+          <p class="card-title-p">Rs. 40.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS3qbdltOIaAkSwCWpbFv82BiX8TyH-rGywYDC3WP78Qb_5x8ue-RtDarxQg4oqx-AiV3EwT5Er9TYXWpqjwjVLVnPXfNWGkojLvr-arh80ATxiPcCuGwtdV2PM&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Sirona Reusable Menstrual Cup with Pouch for Women</b></h6>
+          <p class="card-title-p">Rs. 259.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROlFRJOAeFNiJdczxx896hlVdA8Uh_jGYBSgeX9pwCBxbgOOo553HyyBVJ-TumrIzb99Qo3IJHZnlAC4WrB7K4Pvaymo0Je4S6ZCnMIJgVxXI6jML97p8g&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Whisper Ultra Clean Sanitary Pads Xl+ Wings 44 Pieces</b></h6>
+          <p class="card-title-p">Rs. 409.00</p>      
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ... (similar code for other rows) -->
+</div>
+
+<div class="container mt-5">
+<div class="row g-5">
+ <div class="col">
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQw02OTpxCYRDuze9LmQCPxJ1YvzUHxeZN5wn6fxmVGJdmQtYYExINyHLj_el5eWGSlnhDQDdfsqHekm4hCTUKSEqa3Qm_mz6-QraPIlcMIIErh4u104Uu2&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Sirona Non-Applicator Heavy Flow Tampons 20 pcs</b></h6>
+        <p class="card-title-p">Rs. 292.00</p>      
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQNzUm4Zb_yH2WZLD_nmUX7iz7Edv4-QhVH2F95t7erG03Z-BkpKlcqSww_zs_OA3TBDN9932ucmgyMVEvVVEv3zrUHaBn44CjxUbf4RxfIJbQRCkOnevNKlw&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Whisper Bindazzz Night Period Panty 6 pcs</b></h6>
+        <p class="card-title-p">Rs. 339.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS6q-XQ8BAJmdlx8fLLhNpcuGZbCBZqhh1s2CeCO9QpFyTU6_FfQiVBesqIeDmyYtYL5OxR05P92SOUfFnV-BeHK47kANZBeiZPhocX8cG4BQMMvk7FWEmqWw&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Sirona Set of 4 Reusable Sanitary Pads</b></h6>
+        <p class="card-title-p">Rs. 449.00</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ... (similar code for other rows) -->
+</div>
+</div>
+
+<div class="container mt-5">
+<div class="row g-5">
+ <div class="col">
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://www.tryunbound.in/cdn/shop/files/4_720x.png?v=1700632234" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Reusable Applicator</b></h6>
+        <p class="card-title-p">Rs. 499.00</p>     
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTo7tO4M3kCZAYFOR9zytgiUtqjcmDpy2bgCGF4nfFwFrpISnaaYg1l2ps8JzaNaXvMfqiZxxSA1HQ1_-v8qsfyxTNaVKW_FpAQcm6hFIXk1tjtXbrShw2opQ&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Sofy Regular Tampons</b></h6>
+        <p class="card-title-p">Rs. 179.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTZKLN5HHdvYptMIMDGFBH-Dal688Y49RvSU9StvHfOpuSCIH7o8IS6pTGmCuucJk9cQrFllEpjZDXkawqtXT5Dufx_9PDQoKQAHD6Q7vxAD_0ezafRf_4S2Q&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Monthly Period Care Combo</b></h6>
+        <p class="card-title-p">Rs. 588.00</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ... (similar code for other rows)
+</div>
+</div>-->
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

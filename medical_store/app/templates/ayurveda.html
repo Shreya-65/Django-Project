@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .list-group-item {
+        margin-bottom: 5px; /* 3px gap between list items */
+        font-size: 1.25rem; /* Font size similar to h4 */
+      }
+      .card-img{
+        width: 290px; 
+         height: 220px;
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .card-title{
+        margin-top: 2px;
+        border-color: black;
+        font-size: 18px;
+      }
+      .card-title-p{
+        color: blue;
+      }
+      .btn{
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-panel">
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address">
+                <p class=add-first>Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Kolkata</p>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>Select Pincode</option>
+                </select>
+                <input placeholder="Search Medicienes"class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+                <p><Span><i class="fa-solid fa-user"></i>Hello, sign in</Span></i></p>
+                <p class="nav-second">Account & lists</p>
+            </div>
+
+            <div class="nav-callus">
+                <i class="fa-solid fa-phone"></i>
+                CALL US
+                <div class="add-callicon">
+                    <p class=add-fourth>Kolkata - 9836996813 / 8697989608</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All Categories
+            </div>
+
+            <div class="panel-ops">
+                <p>Medicienes</p>
+                <p>Health blogs</p>
+                <p>Top Products</p>
+                <p>Baby Care</p>
+                <p>Sexual Wellness</p>
+                <p>Offers</p>
+            </div>
+
+            <div class="nav-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Cart
+          </div>
+      </div>
+  </div>
+</header>
+<div class="container mt-5">
+  <div class="row g-5">
+    <div class="col">
+      <a href="medicine.html"<li class="list-group-item">Medicienes</li></a>
+        <li class="list-group-item">Lab Tests</li>
+        <a href="health_care.html"<li class="list-group-item">Healthcare</li></a>
+        <li class="list-group-item">Health Blogs</li>
+        <a href="baby_care.html"<li class="list-group-item">Baby Care</li></a>
+        <a href="sexual_health.html"<li class="list-group-item">Sexual Health</li></a>
+        <a href="ayurveda.html"<li class="list-group-item">Ayurveda</li></a>
+        <a href="health_drink.html"<li class="list-group-item">Health Drinks</li></a>
+        <a href="woman_care.html"<li class="list-group-item">Woman Care</li></a>
+        <a href="skincare.html"<li class="list-group-item">Skin Care</li></a>
+        <a href="haircare.html"<li class="list-group-item">Hair Care</li></a>
+        <a href="vitamins.html"<li class="list-group-item">Vitamins</li></a>
+        <a href="health_device.html"<li class="list-group-item">Health Devices</li></a>
+        <a href="oral_care.html"<li class="list-group-item">Oral Care</li></a>
+        <a href="eye_care.html"<li class="list-group-item">Eye Care</li></a>
+      </ul>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTtk0W5DWlEpxMVd3wh3lScIao_XUWqd5A-UONZ_IuJGtJjiyM6NCFBDRtoufv0qOCSTmSa3_YoZMmLUBsa0paIGrTZ2AGw7wmVOXLjGNcIIHD9hpawjia0qw&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Guduchi Tablet 60 Tab (Pack of 2) </b></h6>
+          <p class="card-title-p">Rs. 325.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSlZ0Jet3Es60HoEmY8LmRhW7mQosGYw3CNpmtPpdQkljv1-ExmbVUy0SXER8S51_uMrkf9kcZXcknMnMjJNpsLxKLjooQVGXpa49Me4KBNQM059J26w4D5Fw&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Alrgydivine Ayursatwadi Ras - 500 ml</b></h6>
+          <p class="card-title-p">Rs. 1,049.00</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-img">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTdDqJxTwJIqd8Hl2cQFOdDyBFBSgmjhxUCPKZwvSSv-XszSPYLtHWWyHUYvDLchw5bcyryV2kUQoff_6bbjFuz4AfVArfxaT9EKZcffOx9&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+        <div class="card-body">
+          <h6 class="card-title"><b>Charak Addyzoa Strip Of 20 Capsules</b></h6>
+          <p class="card-title-p">Rs. 178.00</p>      
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ... (similar code for other rows) -->
+</div>
+
+<div class="container mt-5">
+<div class="row g-5">
+ <div class="col">
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRIeohb0f_WgcG0WtkQZU_rnNJ0u0QBrbe7L6_owClJAEDnN95nbp0cbQl0kmAG0hFYb8zYgqNC0qnmMt9cGVhV2ydAFxB9f_ilK7byIjB6WcIYRxyPy03yzg&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Arshakuthar Rasa - 40 Tabs</b>></h6>
+        <p class="card-title-p">Rs. 186.00</p>      
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQGMLFErjwWGLvsLi-Yp1U87YM1jQsF95XJaqJ6VPWmd9xdHUDAhcZx4guBThVraHu0veJmHymln_aedP-lJ8LPxWwR1k21llo1-srr9Ir8KKNpvrbRZsYMVg&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Kottakkal Ayurveda Respikot Tablet</b></h6>
+        <p class="card-title-p">Rs. 580.00</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSDspJTXGFtKbZUKIw8xj3H9xid7jMEvjFCJu7vNmo1Aw2gnvUUW_UUzxzQo01G4bo_3E4QIvkpgaQeOwIxode1pfS7tWdQu36ZD7YOWfCXnKgBRWfLuXZZsg&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Kadwa Amrit by Smart Veda - 300 g</b></h6>
+        <p class="card-title-p">Rs. 999.00</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ... (similar code for other rows) -->
+</div>
+</div>
+
+<div class="container mt-5">
+<div class="row g-5">
+ <div class="col">
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcThcWa_a9nI4OFot-HQVlsfYj1d1urhlcsL9mlJYnFwa-MrSGgrQPmDX1tbDq26dyB_1waB38YtqJm2PXTaCAEHQ_ZYTfZBTcYCa6GRdX1lA75w3_ROrEfd&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Natural Triphala Capsules (Amla, Bhibhitaki & Haritaki Extract)</b></h6>
+        <p class="card-title-p">Rs. 499.00</p>     
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRIr7nfyOqg4YGeWY__b0o0q47P2alsD03HNqnjT9XvsATX2aVhdANg30HqJlZXNv4NrukipQhTrmNQnNuu4_j4_xEpQ-7BJywLmetTk9Wt1W-8Di--w8vA6A&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Dabur Pudin Hara - 10 N x 12 Strips</b></h6>
+        <p class="card-title-p">Rs. 324.00</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-img">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRmpmVap_kLrMXxqyefhKgN75JfrteZSZfNA85gPVISUk3SfTd3i-RhSTvTXR8qWdbTrAsY-U7d_GRUi9U7vupq_2bcXRet2ThemoZHKIKIJZJuIlCiOMph&usqp=CAE" class="card-img-top" alt="Card Image"></div>
+      <div class="card-body">
+        <h6 class="card-title"><b>Zandu Pancharishta Ayurvedic Digestive Tonic 450 ml</b></h6>
+        <p class="card-title-p">Rs. 129.00</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ... (similar code for other rows)
+</div>
+</div>-->
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
